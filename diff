@@ -1,0 +1,25 @@
+[1mdiff --git a/style.css b/style.css[m
+[1mindex a919355..529f09e 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -1,15 +1,14 @@[m
+[31m-[m
+[32m+[m[32mbody {[m
+[32m+[m[32m  margin: 8px 10px;[m
+[32m+[m[32m}[m
+ main {[m
+   display: flex;[m
+[31m-  justify-content: center;[m
+   flex-wrap: wrap;[m
+[31m-  padding-left: 20px;[m
+[31m-  width: 100%;[m
+ }[m
+ [m
+ article {[m
+   width: 100px;[m
+   height: 200px;[m
+[31m-  margin: 0 0 20px 20px;[m
+[32m+[m[32m  margin: 0px 10px 20px;[m
+   background-color: grey;[m
+ }[m
+\ No newline at end of file[m
